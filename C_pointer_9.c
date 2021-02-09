@@ -5,10 +5,10 @@ int main(void)
 	char name[30];
 	char* a = name;
 
-	printf("ÀÌ¸§À» ÀÔ·ÂÇÏ¼¼¿ä. : ");
-	scanf_s("%s", name, sizeof(name));
+	printf("ì´ë¦„ì„ ì…ë ¥í•˜ì„¸ìš”. : ");
+	scanf_s("%s", name, sizeof(name)); //ì´ë¦„ ì…ë ¥ë°›ê¸°
 	
-	printf("´ç½ÅÀÇ ÀÌ¸§Àº %sÀÔ´Ï´Ù.\n", a);
+	printf("ë‹¹ì‹ ì˜ ì´ë¦„ì€ %sì…ë‹ˆë‹¤.\n", a);
 
 	return 0;
 }
